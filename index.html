@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <h2 class="logo">Portfolio</h2>
+            <ul id="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-btn" id="menuBtn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-text">
+            <h1>Hello, I'm <span style="color: #0ea5e9;">Muskan</span></h1>
+            <h2>Frontend Web Developer</h2>
+            <p>I create responsive and modern websites using HTML, CSS and JavaScript.</p>
+            <a href="#contact" class="btn" style="background-color: #0ea5e9; color: white; padding: 0.7rem 1.5rem; text-decoration: none; border-radius: 4px; font-weight: bold; display: inline-block; margin-top: 1rem;">Hire Me</a>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" style="padding: 3rem 2rem; max-width: 1000px; margin: 0 auto; color: #fff;">
+        <h2 style="color: #38bdf8; margin-bottom: 1.5rem; font-size: 2rem;">My Projects</h2>
+        
+        <!-- DataDash Card -->
+        <div style="background-color: #1e293b; padding: 1.5rem; border-radius: 8px; margin-bottom: 1.5rem; border: 1px solid #334155;">
+            <h3 style="color: #f1f5f9; margin-bottom: 0.5rem; font-size: 1.5rem;">DataDash Dashboard</h3>
+            <p style="color: #38bdf8; margin-bottom: 1.0rem; font-weight: 600;">React • Node.js • Express • MongoDB</p>
+            <p style="color: #94a3b8; margin-bottom: 1rem;">A full-stack analytical dashboard featuring user authentication and dynamic data metrics.</p>
+            <a href="https://datadash-frontend.vercel.app/" target="_blank" style="background-color: #0ea5e9; color: white; padding: 0.5rem 1rem; text-decoration: none; border-radius: 4px; font-weight: bold; display: inline-block;">Live Demo</a>
+        </div>
+
+        <!-- TaskFlow Card -->
+        <div style="background-color: #1e293b; padding: 1.5rem; border-radius: 8px; border: 1px solid #334155;">
+            <h3 style="color: #f1f5f9; margin-bottom: 0.5rem; font-size: 1.5rem;">TaskFlow Agile Board</h3>
+            <p style="color: #38bdf8; margin-bottom: 1.0rem; font-weight: 600;">HTML5 Drag & Drop • Express API • MongoDB</p>
+            <p style="color: #94a3b8; margin-bottom: 1rem;">An interactive Agile Kanban board implementing native HTML5 drag-and-drop state persistence.</p>
+            <a href="https://task-flow-board-xi.vercel.app" target="_blank" style="background-color: #0ea5e9; color: white; padding: 0.5rem 1rem; text-decoration: none; border-radius: 4px; font-weight: bold; display: inline-block;">Live Demo</a>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
